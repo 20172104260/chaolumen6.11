@@ -101,7 +101,7 @@ public:
 int main()
 {
 	CDate *p;
-	p =new CDate;
+	p =new CDate;//CDate ADate;   p=&ADate;
 	int a, b, c;
 	cout << "Please enter the date: " << endl;
 	cin >> a >> b >> c;
